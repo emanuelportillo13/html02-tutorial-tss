@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* Layout-only styles per Tutorial 2 (placement, not colors/typography) */
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { padding: 1rem; }
+nav ul { display: grid; grid-template-columns: repeat(3, 1fr); gap: .25rem; list-style: disc; margin: 0; padding-left: 1.25rem; }
+main { display: grid; grid-template-columns: 2fr 1fr; gap: 1rem; padding: 1rem; }
+article { grid-column: 1 / 2; }
+section { grid-column: 2 / 3; }
+footer address { display:block; text-align:center; padding: 1rem 0; }
